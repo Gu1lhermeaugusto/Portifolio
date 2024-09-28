@@ -1,0 +1,84 @@
+body {
+    background-color: #929292; /* Cor de fundo da página (preto claro) */
+  }
+  
+  /* Cabeçalho Preto */
+  header {
+    background-color: #000000; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 20px;
+    text-align: right;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  /* Seção de Introdução Branca */
+  section.introducao {
+    background-color: #fff; /* Cor de fundo da seção de introdução */
+    padding: 20px;
+  }
+  
+  section.introducao img {
+    width: 10px; /* Alterado de 10px para 100px */
+    height: 10px; /* Alterado de 10px para 100px */
+    border-radius: 50%;
+    margin: 100px;
+  }
+  
+  section.introducao h2, section.introducao p {
+    color: #000; /* Alterado de #ffffff para #000 */
+  }
+  
+  /* Galeria Vermelha */
+  .grid-container {
+    background-color: #ffffff;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  .grid-item p {
+    color: #fff;
+  }
+  .video-container {
+    background-color: #2b2b2b;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .grid-item img, .grid-item video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Rodapé Azul */
+  footer {
+    background-color: #2b2b2b; /* Cor de fundo do rodapé */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
